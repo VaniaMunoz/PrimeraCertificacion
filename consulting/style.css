@@ -5,7 +5,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(23, 23, 105);;
+    background-color: rgb(8, 8, 102);;
 }
 
 .container {
@@ -47,24 +47,15 @@ span {
 }
 
 .container-2 {
-    height: 1000px;   
-    width: 98%;
-    display: inline-block;
     background-color: white;
-    margin: 0px auto;
-    padding: 20px;
-    justify-content: space-between;
-    align-items: left;
-    text-align: left;
+    margin: 0%;
+    padding: 1%;
+    flex: 1;
 }
 
 .main {
-    height: 450px;
-    width: 705px;
     display: inline-block; 
     margin: 2%;
-    align-items: left;
-    justify-content: flex-start;
     padding-top: 1%;
 }
 
@@ -81,37 +72,52 @@ h1, p {
 }
 
 .btn {
-    background-color: rgb(47, 117, 184);
+    background-color: rgb(50, 147, 238);
     color: white;
     border-radius: 5px;
     border: 10px 50px;
     padding: 5px 30px;
 }
 
-img {
-    height: 100%;
-}
-
-h2 {
+h2, h3 {
     color:rgb(0, 63, 122);
 }
 
 .col {
     color: white;
-    padding: 10px;
     flex: 1;
     background-color: rgb(18, 107, 190);
-    vertical-align: top;
-    margin: 1.5%;
+    margin: 10px;
+    color:rgb(0, 63, 122);
+    justify-content: center;
     text-align: center;
 }
 
-.top-nav {
-    height: 150px;
-    width: 925px;
-    display: inline-block;
-    padding: 2%;
-    margin: 2%;
-    justify-items: flex-end;
+.col-2{
+    padding: 10px;
+    flex: 1;
+    vertical-align: top;
+    margin: 1.5%;
+    text-align: left;
+    color: black;
+}
+
+.p2 {
+    color: black;
+}
+
+.p3 {
+    color: black;
+    font-style: italic;
+    color:rgb(0, 63, 122);
+}
+
+.nav-down {
+    height: 80px;
+    color: white;
+    background-color: rgb(117, 188, 230);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
 }
 
